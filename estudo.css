@@ -1,23 +1,40 @@
 *{
-margin: 0;
-padding: 0;
-
-}
-body{
-    background-color: rgb(191, 194, 4);
+    margin: 0;
+    padding: 0;
 }
 
-
-.item {
-    width: 100px;
-     height: 100px;
-background-color: green;
-color: black;
-margin: 10px;
-
+.item{
+    width: 50px;
+    height: 100px;
+    background-color: rgb(223, 213, 247);
+    color: rgb(44, 17, 109);
+    margin: 10px;
 }
+
 .conteudo{
 display: grid;
-grid-template-columns: 20% 20% 20% 20% 20%;
-
+grid-template-columns:10% 10% 10% 10% 10% ;
 }
+
+.barra{
+    background-color: blue;
+    height: 20vh;
+}
+
+.lado{
+    background-color: yellow;
+    height: 40vh;
+}
+
+.principal{
+    background-color: red;
+    height: 20vh;
+}
+
+.rodape{
+    background-color: blue;
+    height: 20vh;
+}
+
+
+
